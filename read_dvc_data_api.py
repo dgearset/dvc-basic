@@ -6,4 +6,4 @@ with dvc.api.open(
     rev="main"   # optional: specify branch, tag, or commit
 ) as fd:
     data = fd.read()
-    print(data)
+    print(data) 
